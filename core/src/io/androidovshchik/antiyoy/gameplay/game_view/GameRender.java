@@ -4,9 +4,9 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import io.androidovshchik.antiyoy.gameplay.GameController;
 
 public abstract class GameRender {
-    protected final SpriteBatch batchMovable = this.gameView.batchMovable;
-    protected final GameController gameController = this.gameView.gameController;
     protected GameView gameView;
+    protected SpriteBatch batchMovable;
+    protected GameController gameController;
     protected final GrManager grManager;
 
     public abstract void disposeTextures();
@@ -18,6 +18,8 @@ public abstract class GameRender {
     public GameRender(GrManager grManager) {
         this.grManager = grManager;
         this.gameView = grManager.gameView;
+        this.batchMovable = gameView.batchMovable;
+        this.gameController = gameView.gameController;
         grManager.gameRenderList.add(this);
     }
 }

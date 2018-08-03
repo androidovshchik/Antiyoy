@@ -10,7 +10,8 @@ public abstract class ObjectPoolYio<ObjectType extends ReusableYio> {
     public abstract ObjectType makeNewObject();
 
     public void add(ObjectType object) {
-        Yio.addByIterator(this.freeObjects, object);
+        this.freeObjects.listIterator().add(object);
+        //Yio.addByIterator(this.freeObjects, object);
     }
 
     public void addWithCheck(ObjectType object) {

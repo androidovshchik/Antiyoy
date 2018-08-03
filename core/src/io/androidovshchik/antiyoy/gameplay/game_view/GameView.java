@@ -592,7 +592,7 @@ public class GameView {
     L_0x0170:
         goto L_0x00c3;
         */
-        throw new UnsupportedOperationException("Method not decompiled: yio.tro.antiyoy.gameplay.game_view.GameView.updateCacheNearAnimHexes():void");
+        //throw new UnsupportedOperationException("Method not decompiled: yio.tro.antiyoy.gameplay.game_view.GameView.updateCacheNearAnimHexes():void");
     }
 
     private void setCacheFrame(float x1, float y1, float x2, float y2) {
@@ -636,7 +636,7 @@ public class GameView {
         }
         Iterator it2 = this.gameController.fieldController.activeHexes.iterator();
         while (it2.hasNext()) {
-            hex = (Hex) it2.next();
+            Hex hex = (Hex) it2.next();
             this.pos = hex.getPos();
             if (isPosInCacheFrame(this.pos, this.hexViewSize)) {
                 int i = 0;
@@ -654,7 +654,7 @@ public class GameView {
         }
         it2 = this.gameController.fieldController.solidObjects.iterator();
         while (it2.hasNext()) {
-            hex = (Hex) it2.next();
+            Hex hex = (Hex) it2.next();
             renderSolidObject(spriteBatch, hex.getPos(), hex);
         }
     }
@@ -826,18 +826,18 @@ public class GameView {
             if (isPosInViewFrame(pos, this.hexViewSize)) {
                 if (hex.animFactor.get() < 1.0f) {
                     TextureRegion currentHexLastTexture = getHexTextureByColor(hex.lastColorIndex);
-                    this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 1.0f - hex.animFactor.get());
+                    this.batchMovable.setColor(c.r, c.g, c.b, 1.0f - hex.animFactor.get());
                     this.batchMovable.draw(currentHexLastTexture, pos.f144x - this.hexViewSize, pos.f145y - this.hexViewSize, this.hexViewSize * 2.0f, 2.0f * this.hexViewSize);
                 }
                 TextureRegion currentHexTexture = getHexTextureByColor(hex.colorIndex);
-                this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, hex.animFactor.get());
+                this.batchMovable.setColor(c.r, c.g, c.b, hex.animFactor.get());
                 this.batchMovable.draw(currentHexTexture, pos.f144x - this.hexViewSize, pos.f145y - this.hexViewSize, 2.0f * this.hexViewSize, 2.0f * this.hexViewSize);
             }
         }
-        this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 1.0f);
+        this.batchMovable.setColor(c.r, c.g, c.b, 1.0f);
         Iterator it2 = this.gameController.fieldController.animHexes.iterator();
         while (it2.hasNext()) {
-            hex = (Hex) it2.next();
+            Hex hex = (Hex) it2.next();
             pos = hex.getPos();
             if (isPosInViewFrame(pos, this.hexViewSize)) {
                 int i = 0;
@@ -852,12 +852,12 @@ public class GameView {
                     i++;
                 }
                 if (hex.containsObject()) {
-                    this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 1.0f);
+                    this.batchMovable.setColor(c.r, c.g, c.b, 1.0f);
                     renderSolidObject(this.batchMovable, pos, hex);
                 }
             }
         }
-        this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 1.0f);
+        this.batchMovable.setColor(c.r, c.g, c.b, 1.0f);
     }
 
     public static void drawFromCenter(SpriteBatch batch, TextureRegion textureRegion, double cx, double cy, double r) {
@@ -872,10 +872,10 @@ public class GameView {
         if (this.gameController.fieldController.responseAnimHex != null) {
             this.pos = this.gameController.fieldController.responseAnimHex.getPos();
             Color c = this.batchMovable.getColor();
-            this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 0.5f * Math.min(this.gameController.fieldController.responseAnimFactor.get(), 1.0f));
+            this.batchMovable.setColor(c.r, c.g, c.b, 0.5f * Math.min(this.gameController.fieldController.responseAnimFactor.get(), 1.0f));
             float s = Math.max(this.hexViewSize, this.hexViewSize * this.gameController.fieldController.responseAnimFactor.get());
             this.batchMovable.draw(this.responseAnimHexTexture, this.pos.f144x - s, this.pos.f145y - s, 2.0f * s, 2.0f * s);
-            this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, c.f36a);
+            this.batchMovable.setColor(c.r, c.g, c.b, c.a);
         }
     }
 
@@ -912,13 +912,13 @@ public class GameView {
         float factor = capitalHex.selectionFactor.get() - this.gameController.fieldController.moveZoneFactor.get();
         float pWidth = province.nameWidth;
         Color c = this.batchMovable.getColor();
-        this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, factor);
+        this.batchMovable.setColor(c.r, c.g, c.b, factor);
         this.batchMovable.draw(this.greenPixel, (pos.f144x - pWidth) - (0.05f * this.hexViewSize), (pos.f145y + (0.55f * this.hexViewSize)) + ((0.4f * factor) * this.hexViewSize), (2.0f * pWidth) + (0.1f * this.hexViewSize), 1.0f * this.hexViewSize);
         this.batchMovable.draw(this.blackTriangle, pos.f144x - (0.3f * this.hexViewSize), (pos.f145y + (0.22f * this.hexViewSize)) + ((0.2f * factor) * this.hexViewSize), 0.6f * this.hexViewSize, 0.6f * this.hexViewSize);
-        this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 0.3f + (0.7f * factor));
+        this.batchMovable.setColor(c.r, c.g, c.b, 0.3f + (0.7f * factor));
         this.batchMovable.draw(this.blackPixel, pos.f144x - pWidth, (pos.f145y + (0.7f * this.hexViewSize)) + ((0.3f * factor) * this.hexViewSize), 2.0f * pWidth, 0.9f * this.hexViewSize);
         Fonts.microFont.draw(this.batchMovable, province.getName(), (pos.f144x - pWidth) + (0.1f * this.hexViewSize), (pos.f145y + (1.4f * this.hexViewSize)) + ((0.3f * factor) * this.hexViewSize));
-        this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, c.f36a);
+        this.batchMovable.setColor(c.r, c.g, c.b, c.a);
     }
 
     public void onResume() {
@@ -944,7 +944,7 @@ public class GameView {
         }
         Iterator it2 = this.gameController.fieldController.selectedHexes.iterator();
         while (it2.hasNext()) {
-            hex = (Hex) it2.next();
+            Hex hex = (Hex) it2.next();
             if (hex.containsObject()) {
                 renderSolidObject(this.batchMovable, hex.getPos(), hex);
             }
@@ -963,18 +963,18 @@ public class GameView {
             this.batchMovable.begin();
             this.pos = this.gameController.forefinger.animPos;
             Color c = this.batchMovable.getColor();
-            this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, this.gameController.forefinger.getAlpha());
+            this.batchMovable.setColor(c.r, c.g, c.b, this.gameController.forefinger.getAlpha());
             drawFromCenterRotated(this.batchMovable, this.forefingerTexture, (double) this.pos.f144x, (double) this.pos.f145y, (double) (this.hexViewSize * this.gameController.forefinger.getSize()), this.gameController.forefinger.getRotation());
-            this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, c.f36a);
+            this.batchMovable.setColor(c.r, c.g, c.b, c.a);
             this.batchMovable.end();
             return;
         }
         this.batchSolid.begin();
         this.pos = this.gameController.forefinger.animPos;
-        c = this.batchSolid.getColor();
-        this.batchSolid.setColor(c.f39r, c.f38g, c.f37b, this.gameController.forefinger.getAlpha());
+        Color c = this.batchSolid.getColor();
+        this.batchSolid.setColor(c.r, c.g, c.b, this.gameController.forefinger.getAlpha());
         drawFromCenterRotated(this.batchSolid, this.forefingerTexture, (double) this.pos.f144x, (double) this.pos.f145y, (double) (this.hexViewSize * this.gameController.forefinger.getSize()), this.gameController.forefinger.getRotation());
-        this.batchSolid.setColor(c.f39r, c.f38g, c.f37b, c.f36a);
+        this.batchSolid.setColor(c.r, c.g, c.b, c.a);
         this.batchSolid.end();
     }
 
@@ -988,25 +988,25 @@ public class GameView {
             PointYio pos = hex.getPos();
             if (isPosInViewFrame(pos, this.hexViewSize)) {
                 if (!this.gameController.isPlayerTurn(hex.colorIndex) || hex.animFactor.get() >= 1.0f || hex.animFactor.getDy() <= 0.0d) {
-                    this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 1.0f);
+                    this.batchMovable.setColor(c.r, c.g, c.b, 1.0f);
                     this.batchMovable.draw(getHexTextureByColor(hex.colorIndex), pos.f144x - this.hexViewSize, pos.f145y - this.hexViewSize, 2.0f * this.hexViewSize, this.hexViewSize * 2.0f);
                 } else {
                     if (hex.animFactor.get() < 1.0f) {
                         TextureRegion currentHexLastTexture = getHexTextureByColor(hex.lastColorIndex);
-                        this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 1.0f - hex.animFactor.get());
+                        this.batchMovable.setColor(c.r, c.g, c.b, 1.0f - hex.animFactor.get());
                         this.batchMovable.draw(currentHexLastTexture, pos.f144x - this.hexViewSize, pos.f145y - this.hexViewSize, 2.0f * this.hexViewSize, 2.0f * this.hexViewSize);
                     }
                     TextureRegion currentHexTexture = getHexTextureByColor(hex.colorIndex);
-                    this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, hex.animFactor.get());
+                    this.batchMovable.setColor(c.r, c.g, c.b, hex.animFactor.get());
                     this.batchMovable.draw(currentHexTexture, pos.f144x - this.hexViewSize, pos.f145y - this.hexViewSize, 2.0f * this.hexViewSize, this.hexViewSize * 2.0f);
                 }
             }
         }
-        this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 1.0f);
+        this.batchMovable.setColor(c.r, c.g, c.b, 1.0f);
         Iterator it2 = this.gameController.fieldController.moveZone.iterator();
         while (it2.hasNext()) {
             int i;
-            hex = (Hex) it2.next();
+            Hex hex = (Hex) it2.next();
             pos = hex.getPos();
             if (isPosInViewFrame(pos, this.hexViewSize)) {
                 for (i = 0; i < 6; i++) {
@@ -1023,8 +1023,8 @@ public class GameView {
         renderResponseAnimHex();
         if (this.gameController.selectionController.selectedUnit != null || this.gameController.selectionController.tipFactor.get() > 0.0f || this.gameController.fieldController.moveZoneFactor.get() > 0.0f) {
             for (k = this.gameController.fieldController.moveZone.size() - 1; k >= 0; k--) {
-                hex = (Hex) this.gameController.fieldController.moveZone.get(k);
-                for (i = 0; i < 6; i++) {
+                Hex hex = (Hex) this.gameController.fieldController.moveZone.get(k);
+                for (int i = 0; i < 6; i++) {
                     h = hex.getAdjacentHex(i);
                     if (!(h == null || h.isEmptyHex() || (h.active && h.inMoveZone == hex.inMoveZone))) {
                         renderLineBetweenHexesWithOffset(hex, h, this.batchMovable, (((double) this.gameController.fieldController.moveZoneFactor.get()) * 0.02d) * ((double) this.f100w), this.moveZonePixel, ((-(1.0d - ((double) this.gameController.fieldController.moveZoneFactor.get()))) * 0.01d) * ((double) this.f100w), i, (double) this.gameController.fieldController.moveZoneFactor.get());
@@ -1039,10 +1039,10 @@ public class GameView {
             }
         }
         if (this.gameController.fieldController.selectedHexes.size() != 0) {
-            this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 1.0f - this.gameController.fieldController.moveZoneFactor.get());
+            this.batchMovable.setColor(c.r, c.g, c.b, 1.0f - this.gameController.fieldController.moveZoneFactor.get());
             for (k = this.gameController.fieldController.moveZone.size() - 1; k >= 0; k--) {
-                hex = (Hex) this.gameController.fieldController.moveZone.get(k);
-                for (i = 0; i < 6; i++) {
+                Hex hex = (Hex) this.gameController.fieldController.moveZone.get(k);
+                for (int i = 0; i < 6; i++) {
                     h = hex.getAdjacentHex(i);
                     if (!(h == null || h.isEmptyHex() || (h.active && h.sameColor(hex)))) {
                         renderLineBetweenHexesWithOffset(hex, h, this.batchMovable, (((double) hex.selectionFactor.get()) * 0.01d) * ((double) this.f100w), this.selectionBorder, ((-(1.0d - ((double) hex.selectionFactor.get()))) * 0.01d) * ((double) this.f100w), i, (double) hex.selectionFactor.get());
@@ -1050,7 +1050,7 @@ public class GameView {
                 }
             }
         }
-        this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, c.f36a);
+        this.batchMovable.setColor(c.r, c.g, c.b, c.a);
     }
 
     private void renderSelectedUnit() {
@@ -1068,9 +1068,9 @@ public class GameView {
     private void renderBlackout() {
         if (((double) this.gameController.fieldController.moveZoneFactor.get()) >= 0.01d) {
             Color c = this.batchMovable.getColor();
-            this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, 0.5f * this.gameController.selectionController.getBlackoutFactor().get());
+            this.batchMovable.setColor(c.r, c.g, c.b, 0.5f * this.gameController.selectionController.getBlackoutFactor().get());
             GraphicsYio.drawByRectangle(this.batchMovable, this.blackPixel, this.gameController.cameraController.frame);
-            this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, c.f36a);
+            this.batchMovable.setColor(c.r, c.g, c.b, c.a);
         }
     }
 
@@ -1091,7 +1091,7 @@ public class GameView {
             ArrayList<Hex> defenseTips = this.gameController.fieldController.defenseTips;
             if (defenseTips.size() != 0) {
                 Color c = this.batchMovable.getColor();
-                this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, f);
+                this.batchMovable.setColor(c.r, c.g, c.b, f);
                 Iterator it = defenseTips.iterator();
                 while (it.hasNext()) {
                     PointYio cPos;
@@ -1117,7 +1117,7 @@ public class GameView {
                     }
                     drawFromCenter(this.batchMovable, this.defenseIcon, (double) x, (double) y, (double) size);
                 }
-                this.batchMovable.setColor(c.f39r, c.f38g, c.f37b, c.f36a);
+                this.batchMovable.setColor(c.r, c.g, c.b, c.a);
             }
         }
     }
@@ -1184,9 +1184,9 @@ public class GameView {
         float cy = (float) (this.f99h / 2);
         float fw = this.factorModel.get() * cx;
         float fh = this.factorModel.get() * cy;
-        this.batchSolid.setColor(c.f39r, c.f38g, c.f37b, this.factorModel.get());
+        this.batchSolid.setColor(c.r, c.g, c.b, this.factorModel.get());
         this.batchSolid.draw(getTransitionTexture(), cx - fw, cy - fh, 2.0f * fw, 2.0f * fh);
-        this.batchSolid.setColor(c.f39r, c.f38g, c.f37b, c.f36a);
+        this.batchSolid.setColor(c.r, c.g, c.b, c.a);
         this.batchSolid.end();
     }
 

@@ -1204,8 +1204,8 @@ public class FieldController {
     public void updateFocusedHex(float screenX, float screenY) {
         OrthographicCamera orthoCam = this.gameController.cameraController.orthoCam;
         SelectionController selectionController = this.gameController.selectionController;
-        selectionController.selectX = ((screenX - (GraphicsYio.width * 0.5f)) * orthoCam.zoom) + orthoCam.position.f136x;
-        selectionController.selectY = ((screenY - (GraphicsYio.height * 0.5f)) * orthoCam.zoom) + orthoCam.position.f137y;
+        selectionController.selectX = ((screenX - (GraphicsYio.width * 0.5f)) * orthoCam.zoom) + orthoCam.position.x;
+        selectionController.selectY = ((screenY - (GraphicsYio.height * 0.5f)) * orthoCam.zoom) + orthoCam.position.y;
         GameView gameView = this.gameController.getYioGdxGame().gameView;
         this.focusedHex = getHexByPos((double) (selectionController.selectX + gameView.hexViewSize), (double) (selectionController.selectY + gameView.hexViewSize));
     }

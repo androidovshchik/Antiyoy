@@ -234,8 +234,8 @@ public class CameraController {
     }
 
     private void updateField() {
-        this.field.f146x = (double) ((((float) this.f94w) * 0.5f) - (this.orthoCam.position.f136x / this.orthoCam.zoom));
-        this.field.f147y = (double) ((((float) this.f93h) * 0.5f) - (this.orthoCam.position.f137y / this.orthoCam.zoom));
+        this.field.f146x = (double) ((((float) this.f94w) * 0.5f) - (this.orthoCam.position.x / this.orthoCam.zoom));
+        this.field.f147y = (double) ((((float) this.f93h) * 0.5f) - (this.orthoCam.position.y / this.orthoCam.zoom));
         this.field.width = (double) (this.boundWidth / this.orthoCam.zoom);
         this.field.height = (double) (this.boundHeight / this.orthoCam.zoom);
     }
@@ -303,8 +303,8 @@ public class CameraController {
     }
 
     void updateFrame() {
-        this.frame.f146x = (double) (((0.0f - (((float) this.f94w) * 0.5f)) * this.orthoCam.zoom) + this.orthoCam.position.f136x);
-        this.frame.f147y = (double) (((0.0f - (((float) this.f93h) * 0.5f)) * this.orthoCam.zoom) + this.orthoCam.position.f137y);
+        this.frame.f146x = (double) (((0.0f - (((float) this.f94w) * 0.5f)) * this.orthoCam.zoom) + this.orthoCam.position.x);
+        this.frame.f147y = (double) (((0.0f - (((float) this.f93h) * 0.5f)) * this.orthoCam.zoom) + this.orthoCam.position.y);
         this.frame.width = (double) (((float) this.f94w) * this.orthoCam.zoom);
         this.frame.height = (double) (((float) this.f93h) * this.orthoCam.zoom);
     }

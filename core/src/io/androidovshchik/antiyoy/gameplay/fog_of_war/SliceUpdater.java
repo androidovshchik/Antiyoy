@@ -28,6 +28,8 @@ public class SliceUpdater {
             FogPoint adjacentFogPoint = getAdjacentFogPoint(endPoint, this.upDir);
             if (!(adjacentFogPoint == null || adjacentFogPoint.status)) {
                 endPoint = adjacentFogPoint;
+            } else {
+                break;
             }
         }
         next.setBottomPoint(startPoint);

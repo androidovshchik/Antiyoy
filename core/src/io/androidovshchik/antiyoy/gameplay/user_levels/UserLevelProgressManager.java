@@ -28,7 +28,7 @@ public class UserLevelProgressManager {
     private void load() {
         String[] split = Gdx.app.getPreferences(ULP_PREFS).getString("keys").split(" ");
         for (Object add : split) {
-            this.keys.add(add);
+            this.keys.add((String) add);
         }
     }
 

@@ -299,8 +299,8 @@ public class FogOfWarManager {
 
     private void clearPoints() {
         for (Entry<Hex, FogPoint> entry : this.fogMap.entrySet()) {
-            this.poolFogPoints.add((ReusableYio) entry.getValue());
-            this.poolKeys.add((ReusableYio) entry.getKey());
+            this.poolFogPoints.add((FogPoint) entry.getValue());
+            this.poolKeys.add((Hex) entry.getKey());
         }
         this.fogMap.clear();
     }
