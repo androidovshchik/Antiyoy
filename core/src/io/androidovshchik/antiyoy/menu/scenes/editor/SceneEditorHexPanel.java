@@ -34,7 +34,7 @@ public class SceneEditorHexPanel extends AbstractEditorPanel {
             }
         }
         for (i = Keys.NUMPAD_6; i <= 158; i++) {
-            buttonYio = this.menuControllerYio.getButtonById(i);
+            ButtonYio buttonYio = this.menuControllerYio.getButtonById(i);
             buttonYio.appearFactor.appear(MenuControllerYio.SPAWN_ANIM, MenuControllerYio.SPAWN_SPEED);
             buttonYio.enableRectangularMask();
             buttonYio.disableTouchAnimation();

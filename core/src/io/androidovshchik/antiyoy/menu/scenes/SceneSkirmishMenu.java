@@ -162,7 +162,8 @@ public class SceneSkirmishMenu extends AbstractScene {
         while (it.hasNext()) {
             InterfaceElement slider = (SliderYio) it.next();
             this.menuControllerYio.addElementToScene(slider);
-            slider.setVerticalTouchOffset(0.05f * GraphicsYio.height);
+            // TODO
+            //slider.setVerticalTouchOffset(0.05f * GraphicsYio.height);
         }
         this.colorsSlider.addListener(this.playersSlider);
         this.mapSizeSlider.addListener(this.colorsSlider);

@@ -1,5 +1,6 @@
 package io.androidovshchik.antiyoy.menu.render;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import io.androidovshchik.antiyoy.menu.InterfaceElement;
@@ -24,21 +25,21 @@ public class RenderLevelSelector extends MenuRender {
     public void renderSecondLayer(InterfaceElement element) {
         this.selector = (LevelSelector) element;
         if (this.selector.getFactor().get() != 0.0f) {
-            this.c = this.batch.getColor();
+            Color c = this.batch.getColor();
             renderShadows();
             this.batch.end();
             Masking.begin();
             drawShapeRendererStuff();
             this.batch.begin();
             Masking.continueAfterBatchBegin();
-            this.batch.setColor(this.c.f39r, this.c.f38g, this.c.f37b, this.selector.getFactor().get());
+            this.batch.setColor(c.r, c.g, c.b, this.selector.getFactor().get());
             for (int i = 0; i < this.selector.textures.length; i++) {
                 RectangleYio pos = this.selector.positions[i];
                 this.batch.draw(this.selector.textures[i], (float) pos.f146x, (float) pos.f147y, (float) pos.width, (float) pos.height);
                 checkToRenderSelection(this.selector, pos, i);
             }
             Masking.end(this.batch);
-            this.batch.setColor(this.c.f39r, this.c.f38g, this.c.f37b, 1.0f);
+            this.batch.setColor(c.r, c.g, c.b, 1.0f);
         }
     }
 

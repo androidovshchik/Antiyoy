@@ -75,8 +75,9 @@ public class RenderFastConstructionPanel extends MenuRender {
     }
 
     private void renderShadow() {
-        this.smDelta = (this.h * 0.1f) * (1.0f - this.factor);
-        this.batch.draw(this.sideShadow, 0.0f, (-this.smDelta) + (0.03f * this.h), this.w, this.h * 0.1f);
+        // TODO
+        //this.smDelta = (this.h * 0.1f) * (1.0f - this.factor);
+        //this.batch.draw(this.sideShadow, 0.0f, (-this.smDelta) + (0.03f * this.h), this.w, this.h * 0.1f);
     }
 
     private void renderItems() {

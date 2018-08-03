@@ -98,7 +98,8 @@ public class RenderSlider extends MenuRender {
 
     private void checkToChangeBatchAlpha() {
         if (this.slider.appearFactor.get() != 1.0f) {
-            this.batch.setColor(this.c.f39r, this.c.f38g, this.c.f37b, this.slider.appearFactor.get());
+            // TODO
+            //this.batch.setColor(this.c.f39r, this.c.f38g, this.c.f37b, this.slider.appearFactor.get());
         }
     }
 

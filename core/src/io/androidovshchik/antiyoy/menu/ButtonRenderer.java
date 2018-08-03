@@ -59,7 +59,7 @@ public class ButtonRenderer {
         this.horizontalOffset = (int) (0.3f * ((float) FONT_SIZE));
         this.frameBuffer = FrameBufferYio.getInstance(Format.RGB565, Gdx.graphics.getWidth(), Gdx.graphics.getHeight(), false);
         this.frameBuffer.begin();
-        Gdx.gl.glClearColor(buttonYio.backColor.f39r, buttonYio.backColor.f38g, buttonYio.backColor.f37b, 1.0f);
+        Gdx.gl.glClearColor(buttonYio.backColor.r, buttonYio.backColor.g, buttonYio.backColor.b, 1.0f);
         Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
         Matrix4 matrix4 = new Matrix4();
         int orthoWidth = getExpectedOrthoWidth(buttonYio, font);
@@ -165,7 +165,7 @@ public class ButtonRenderer {
         while (it.hasNext()) {
             CharSequence line = (String) it.next();
             font.draw(this.batch, line, (float) this.horizontalOffset, (float) ((lineNumber * lineHeight) + verticalOffset));
-            float currentLineLength = (float) getTextWidth(line, font);
+            float currentLineLength = (float) getTextWidth(line.toString(), font);
             if (currentLineLength > longestLineLength) {
                 longestLineLength = currentLineLength;
             }

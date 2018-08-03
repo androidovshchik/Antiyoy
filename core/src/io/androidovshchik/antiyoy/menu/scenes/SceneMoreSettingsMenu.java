@@ -119,7 +119,8 @@ public class SceneMoreSettingsMenu extends AbstractScene {
         while (it.hasNext()) {
             InterfaceElement slider = (SliderYio) it.next();
             this.menuControllerYio.addElementToScene(slider);
-            slider.setVerticalTouchOffset(0.05f * GraphicsYio.height);
+            // TODO
+            //slider.setVerticalTouchOffset(0.05f * GraphicsYio.height);
         }
     }
 

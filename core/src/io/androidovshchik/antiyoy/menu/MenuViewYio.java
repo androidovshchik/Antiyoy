@@ -83,9 +83,9 @@ public class MenuViewYio {
         this.y1 = buttonYio.y1;
         this.y2 = buttonYio.y2;
         if (buttonYio.appearFactor.get() <= 1.0f) {
-            batch.setColor(this.f101c.f39r, this.f101c.f38g, this.f101c.f37b, buttonYio.appearFactor.get());
+            batch.setColor(this.f101c.r, this.f101c.g, this.f101c.b, buttonYio.appearFactor.get());
         } else {
-            batch.setColor(this.f101c.f39r, this.f101c.f38g, this.f101c.f37b, 1.0f);
+            batch.setColor(this.f101c.r, this.f101c.g, this.f101c.b, 1.0f);
         }
         batch.draw(this.shadowSide, ((float) this.cornerSize) + this.x1, this.y2 - ((float) this.cornerSize), (buttonYio.hor - ((float) this.cornerSize)) * 2.0f, (float) (this.cornerSize * 2));
         batch.draw(this.shadowSide, ((float) this.cornerSize) + this.x1, ((float) this.cornerSize) + this.y1, 0.0f, 0.0f, (buttonYio.ver - ((float) this.cornerSize)) * 2.0f, (float) (this.cornerSize * 2), 1.0f, 1.0f, 90.0f);
@@ -133,16 +133,16 @@ public class MenuViewYio {
     private boolean checkForSpecialAnimationMask(ButtonYio buttonYio) {
         RectangleYio pos = buttonYio.animPos;
         switch (buttonYio.id) {
-            case Keys.f16M /*41*/:
+            case Keys.M /*41*/:
                 this.shapeRenderer.rect((float) pos.f146x, (float) (pos.f147y + (0.5d * pos.height)), (float) pos.width, ((float) pos.height) * 0.5f);
                 return true;
-            case Keys.f17N /*42*/:
+            case Keys.N /*42*/:
                 this.shapeRenderer.rect((float) pos.f146x, (float) pos.f147y, (float) pos.width, ((float) pos.height) * 0.5f);
                 return true;
-            case Keys.f18O /*43*/:
+            case Keys.O /*43*/:
                 this.shapeRenderer.rect((float) pos.f146x, (float) pos.f147y, (float) pos.width, (float) pos.height);
                 return true;
-            case Keys.f19P /*44*/:
+            case Keys.P /*44*/:
                 this.shapeRenderer.rect((float) pos.f146x, (float) pos.f147y, (float) pos.width, (float) pos.height);
                 return true;
             default:
@@ -178,14 +178,14 @@ public class MenuViewYio {
         }
         it = interfaceElements.iterator();
         while (it.hasNext()) {
-            element = (InterfaceElement) it.next();
+            InterfaceElement element = (InterfaceElement) it.next();
             if (element.isVisible()) {
                 element.getRenderSystem().renderSecondLayer(element);
             }
         }
         it = interfaceElements.iterator();
         while (it.hasNext()) {
-            element = (InterfaceElement) it.next();
+            InterfaceElement element = (InterfaceElement) it.next();
             if (element.isVisible()) {
                 element.getRenderSystem().renderThirdLayer(element);
             }
@@ -218,11 +218,11 @@ public class MenuViewYio {
                     this.shapeRenderer.end();
                     this.batch.begin();
                     YioGdxGame.maskingContinue();
-                    this.batch.setColor(this.f101c.f39r, this.f101c.f38g, this.f101c.f37b, 0.7f * buttonYio.selAlphaFactor.get());
+                    this.batch.setColor(this.f101c.r, this.f101c.g, this.f101c.b, 0.7f * buttonYio.selAlphaFactor.get());
                     float r = buttonYio.selectionFactor.get() * buttonYio.animR;
                     this.batch.draw(this.blackCircle, buttonYio.touchX - r, buttonYio.touchY - r, 2.0f * r, 2.0f * r);
                     this.batch.end();
-                    this.batch.setColor(this.f101c.f39r, this.f101c.f38g, this.f101c.f37b, 1.0f);
+                    this.batch.setColor(this.f101c.r, this.f101c.g, this.f101c.b, 1.0f);
                     YioGdxGame.maskingEnd();
                 }
             }
@@ -238,7 +238,7 @@ public class MenuViewYio {
         while (it.hasNext()) {
             renderSingleButton(renderAliveButtons, renderDyingButtons, (ButtonYio) it.next());
         }
-        this.batch.setColor(this.f101c.f39r, this.f101c.f38g, this.f101c.f37b, 1.0f);
+        this.batch.setColor(this.f101c.r, this.f101c.g, this.f101c.b, 1.0f);
         this.batch.end();
         if (this.yioGdxGame.useMenuMasks) {
             YioGdxGame.maskingEnd();
@@ -253,9 +253,9 @@ public class MenuViewYio {
                 }
                 if (!checkForSpecialAlpha(buttonYio)) {
                     if (buttonYio.appearFactor.get() <= 1.0f) {
-                        this.batch.setColor(this.f101c.f39r, this.f101c.f38g, this.f101c.f37b, buttonYio.appearFactor.get());
+                        this.batch.setColor(this.f101c.r, this.f101c.g, this.f101c.b, buttonYio.appearFactor.get());
                     } else {
-                        this.batch.setColor(this.f101c.f39r, this.f101c.f38g, this.f101c.f37b, 1.0f);
+                        this.batch.setColor(this.f101c.r, this.f101c.g, this.f101c.b, 1.0f);
                     }
                 }
                 RectangleYio ap = buttonYio.animPos;
@@ -264,7 +264,7 @@ public class MenuViewYio {
                     return;
                 }
                 if (!buttonYio.touchAnimation || ((double) buttonYio.selectionFactor.get()) > 0.99d) {
-                    this.batch.setColor(this.f101c.f39r, this.f101c.f38g, this.f101c.f37b, 0.7f * buttonYio.selAlphaFactor.get());
+                    this.batch.setColor(this.f101c.r, this.f101c.g, this.f101c.b, 0.7f * buttonYio.selAlphaFactor.get());
                     this.batch.draw(this.buttonPixel, (float) ap.f146x, (float) ap.f147y, (float) ap.width, (float) ap.height);
                 }
             }
@@ -333,15 +333,15 @@ public class MenuViewYio {
     private static void renderTransitionCircle(TextureRegion circleTexture, float factor, RectangleYio frame, SpriteBatch batch, float x, float y) {
         Color c = batch.getColor();
         if (((double) factor) < 0.5d) {
-            batch.setColor(c.f39r, c.f38g, c.f37b, 1.0f);
+            batch.setColor(c.r, c.g, c.b, 1.0f);
         } else {
-            batch.setColor(c.f39r, c.f38g, c.f37b, 1.0f - (2.0f * factor));
+            batch.setColor(c.r, c.g, c.b, 1.0f - (2.0f * factor));
         }
         float r = ((float) Math.sqrt((double) (2.0f * factor))) * maxDistanceToCorners(x, y, frame);
         batch.begin();
         batch.draw(circleTexture, x - r, y - r, 2.0f * r, 2.0f * r);
         batch.end();
-        batch.setColor(c.f39r, c.f38g, c.f37b, 1.0f);
+        batch.setColor(c.r, c.g, c.b, 1.0f);
     }
 
     public int getCornerSize() {

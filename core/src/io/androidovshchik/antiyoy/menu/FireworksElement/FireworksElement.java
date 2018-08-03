@@ -186,7 +186,8 @@ public class FireworksElement extends InterfaceElement {
         pointYio.f145y += 0.01f * GraphicsYio.width;
         next.viewType = YioGdxGame.random.nextInt(9);
         next.appear();
-        Yio.addByIterator(this.particles, next);
+        this.particles.listIterator().add(next);
+        //Yio.addByIterator(this.particles, next);
     }
 
     public FactorYio getFactor() {
