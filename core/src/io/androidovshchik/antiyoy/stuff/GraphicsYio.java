@@ -14,8 +14,8 @@ public class GraphicsYio {
     public static final float borderThickness = (0.003f * ((float) Gdx.graphics.getHeight()));
     private static GlyphLayout glyphLayout = new GlyphLayout();
     public static float height = ((float) Gdx.graphics.getHeight());
-    public static float screenRatio = (height / width);
     public static float width = ((float) Gdx.graphics.getWidth());
+    public static float screenRatio = (height / width);
 
     public static TextureRegion loadTextureRegion(String name, boolean antialias) {
         Texture texture = new Texture(Gdx.files.internal(name));
@@ -72,12 +72,12 @@ public class GraphicsYio {
 
     public static void setBatchAlpha(SpriteBatch spriteBatch, double alpha) {
         Color color = spriteBatch.getColor();
-        spriteBatch.setColor(color.f39r, color.f38g, color.f37b, (float) alpha);
+        spriteBatch.setColor(color.r, color.g, color.b, (float) alpha);
     }
 
     public static void setFontAlpha(BitmapFont font, double alpha) {
         Color color = font.getColor();
-        font.setColor(color.f39r, color.f38g, color.f37b, (float) alpha);
+        font.setColor(color.r, color.g, color.b, (float) alpha);
     }
 
     public static void drawLine(double x1, double y1, double x2, double y2, double thickness, SpriteBatch spriteBatch, TextureRegion texture) {

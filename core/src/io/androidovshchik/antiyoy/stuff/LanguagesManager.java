@@ -1,6 +1,5 @@
 package io.androidovshchik.antiyoy.stuff;
 
-import android.annotation.TargetApi;
 import com.badlogic.gdx.Gdx;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -63,7 +62,6 @@ public class LanguagesManager {
         return String.format(getString(key), args);
     }
 
-    @TargetApi(8)
     public ArrayList<LanguageChooseItem> getChooseListItems() {
         ArrayList<LanguageChooseItem> result = new ArrayList();
         try {
@@ -83,7 +81,6 @@ public class LanguagesManager {
         return result;
     }
 
-    @TargetApi(8)
     public boolean loadLanguage(String languageName) {
         try {
             NodeList languages = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse(Gdx.files.internal(LANGUAGES_FILE).read()).getDocumentElement().getElementsByTagName("language");

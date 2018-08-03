@@ -27,13 +27,14 @@ public abstract class ObjectPoolYio<ObjectType extends ReusableYio> {
         this.freeObjects.clear();
     }
 
+    @SuppressWarnings("unchecked")
     public ObjectType getNext() {
         if (this.freeObjects.size() > 0) {
             ListIterator<ObjectType> iterator = this.freeObjects.listIterator();
             ReusableYio next = (ReusableYio) iterator.next();
             iterator.remove();
             next.reset();
-            return next;
+            return (ObjectType) next;
         }
         ObjectType object = makeNewObject();
         object.reset();

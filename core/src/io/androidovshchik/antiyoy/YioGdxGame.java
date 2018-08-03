@@ -350,7 +350,7 @@ public class YioGdxGame extends ApplicationAdapter implements InputProcessor {
 
     private void renderMenuLayersWhenNothingIsMoving() {
         Color c = this.batch.getColor();
-        this.batch.setColor(c.f39r, c.f38g, c.f37b, 1.0f);
+        this.batch.setColor(c.r, c.g, c.b, 1.0f);
         this.batch.begin();
         this.batch.draw(this.currentBackground, 0.0f, 0.0f, (float) this.f149w, (float) this.f148h);
         this.splatController.renderSplats(c);
@@ -359,10 +359,10 @@ public class YioGdxGame extends ApplicationAdapter implements InputProcessor {
 
     private void renderMenuLayersWhenUsualAnimation() {
         Color c = this.batch.getColor();
-        this.batch.setColor(c.f39r, c.f38g, c.f37b, 1.0f);
+        this.batch.setColor(c.r, c.g, c.b, 1.0f);
         drawBackground(this.lastBackground);
         if (this.simpleTransitionAnimation) {
-            this.batch.setColor(c.f39r, c.f38g, c.f37b, 0.0f + this.transitionFactor.get());
+            this.batch.setColor(c.r, c.g, c.b, 0.0f + this.transitionFactor.get());
             drawBackground(this.currentBackground);
         } else {
             float f = 0.0f + this.transitionFactor.get();
@@ -620,7 +620,6 @@ public class YioGdxGame extends ApplicationAdapter implements InputProcessor {
                 return false;
             }
             this.lastTimeButtonPressed = System.currentTimeMillis();
-            return false;
         } catch (Exception exception) {
             if (!this.alreadyShownErrorMessageOnce) {
                 exception.printStackTrace();
@@ -628,6 +627,7 @@ public class YioGdxGame extends ApplicationAdapter implements InputProcessor {
                 Scenes.sceneExceptionReport.create(exception);
             }
         }
+        return false;
     }
 
     public boolean touchUp(int screenX, int screenY, int pointer, int button) {

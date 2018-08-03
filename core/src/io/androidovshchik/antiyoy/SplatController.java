@@ -85,14 +85,14 @@ public class SplatController {
     void renderSplats(Color c) {
         Splat splat;
         if (this.splatTransparencyFactor.get() == 1.0f) {
-            this.yioGdxGame.batch.setColor(c.f39r, c.f38g, c.f37b, this.splatTransparencyFactor.get());
+            this.yioGdxGame.batch.setColor(c.r, c.g, c.b, this.splatTransparencyFactor.get());
             Iterator it = this.splats.iterator();
             while (it.hasNext()) {
                 splat = (Splat) it.next();
                 this.yioGdxGame.batch.draw(this.splatTexture, splat.f89x - (splat.f88r / 2.0f), splat.f90y - (splat.f88r / 2.0f), splat.f88r, splat.f88r);
             }
         } else if (this.splatTransparencyFactor.get() > 0.0f) {
-            this.yioGdxGame.batch.setColor(c.f39r, c.f38g, c.f37b, this.splatTransparencyFactor.get());
+            this.yioGdxGame.batch.setColor(c.r, c.g, c.b, this.splatTransparencyFactor.get());
             Iterator it2 = this.splats.iterator();
             while (it2.hasNext()) {
                 splat = (Splat) it2.next();

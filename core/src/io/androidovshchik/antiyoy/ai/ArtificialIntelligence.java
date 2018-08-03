@@ -349,7 +349,7 @@ public abstract class ArtificialIntelligence {
         }
         it = attackableHexes.iterator();
         while (it.hasNext()) {
-            attackableHex = (Hex) it.next();
+            Hex attackableHex = (Hex) it.next();
             if (attackableHex.isDefendedByTower()) {
                 return attackableHex;
             }

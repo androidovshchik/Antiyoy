@@ -154,7 +154,7 @@ public class AiExpertGenericRules extends ArtificialIntelligenceGeneric {
             this.gameController.fieldController.buildTower(province, hex);
         }
         while (provinceCanAffordStrongTower(province)) {
-            hex = findHexForStrongTower(province);
+            Hex hex = findHexForStrongTower(province);
             if (hex != null) {
                 this.gameController.fieldController.buildStrongTower(province, hex);
             } else {

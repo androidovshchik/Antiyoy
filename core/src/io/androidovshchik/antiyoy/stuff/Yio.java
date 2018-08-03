@@ -52,7 +52,7 @@ public class Yio {
         }
     }
 
-    public static void addByIterator(ArrayList<?> list, Object object) {
+    public static void addByIterator(ArrayList<Object> list, Object object) {
         list.listIterator().add(object);
     }
 
