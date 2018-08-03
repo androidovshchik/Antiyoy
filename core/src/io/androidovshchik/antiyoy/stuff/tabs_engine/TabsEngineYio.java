@@ -3,10 +3,10 @@ package io.androidovshchik.antiyoy.stuff.tabs_engine;
 import com.badlogic.gdx.net.HttpStatus;
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.RepeatYio;
-import yio.tro.antiyoy.stuff.scroll_engine.SegmentYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.RepeatYio;
+import io.androidovshchik.antiyoy.stuff.scroll_engine.SegmentYio;
 
 public class TabsEngineYio {
     private double correction;

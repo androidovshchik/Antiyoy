@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import yio.tro.antiyoy.stuff.AtlasLoader;
+import io.androidovshchik.antiyoy.stuff.AtlasLoader;
 
 public class Storage3xTexture {
     private TextureRegion lowTexture;

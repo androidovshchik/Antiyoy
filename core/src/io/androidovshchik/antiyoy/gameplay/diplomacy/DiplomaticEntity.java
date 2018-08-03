@@ -3,11 +3,11 @@ package io.androidovshchik.antiyoy.gameplay.diplomacy;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.gameplay.Province;
-import yio.tro.antiyoy.gameplay.name_generator.CityNameGenerator;
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.Province;
+import io.androidovshchik.antiyoy.gameplay.name_generator.CityNameGenerator;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class DiplomaticEntity implements ReusableYio {
     public boolean alive;

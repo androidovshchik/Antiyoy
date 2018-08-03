@@ -1,15 +1,15 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.SoundControllerYio;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.SoundControllerYio;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SceneSelectionOverlay extends AbstractGameplayScene {
     private ButtonYio coinButton;

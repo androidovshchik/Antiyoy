@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.stuff.scroll_engine;
 
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class ScrollEngineYio {
     private boolean blockMovement;

@@ -1,12 +1,12 @@
 package io.androidovshchik.antiyoy.menu;
 
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.menu.render.MenuRender;
-import yio.tro.antiyoy.stuff.Fonts;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.menu.render.MenuRender;
+import io.androidovshchik.antiyoy.stuff.Fonts;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class NotificationElement extends InterfaceElement {
     public static final int AUTO_HIDE_DELAY = 1500;

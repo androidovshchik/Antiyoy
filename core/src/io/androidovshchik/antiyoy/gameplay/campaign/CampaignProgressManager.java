@@ -4,8 +4,8 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
 import java.util.Arrays;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.gameplay.DebugFlags;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.gameplay.DebugFlags;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
 
 public class CampaignProgressManager {
     public static final int INDEX_OF_LAST_LEVEL = 105;

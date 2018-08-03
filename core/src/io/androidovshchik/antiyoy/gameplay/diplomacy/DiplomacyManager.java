@@ -3,15 +3,15 @@ package io.androidovshchik.antiyoy.gameplay.diplomacy;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Map.Entry;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.gameplay.Province;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.SingleMessages;
-import yio.tro.antiyoy.menu.diplomacy_element.DiplomacyElement;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.stuff.object_pool.ObjectPoolYio;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.Province;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.SingleMessages;
+import io.androidovshchik.antiyoy.menu.diplomacy_element.DiplomacyElement;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.stuff.object_pool.ObjectPoolYio;
 
 public class DiplomacyManager {
     public ArrayList<DiplomaticContract> contracts = new ArrayList();

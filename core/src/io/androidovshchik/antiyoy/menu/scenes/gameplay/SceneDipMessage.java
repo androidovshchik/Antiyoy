@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.diplomatic_dialogs.DipMessageDialog;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.diplomatic_dialogs.DipMessageDialog;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SceneDipMessage extends AbstractGameplayScene {
     public DipMessageDialog dialog = null;

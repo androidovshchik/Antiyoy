@@ -2,7 +2,7 @@ package io.androidovshchik.antiyoy.stuff.object_pool;
 
 import java.util.ArrayList;
 import java.util.ListIterator;
-import yio.tro.antiyoy.stuff.Yio;
+import io.androidovshchik.antiyoy.stuff.Yio;
 
 public abstract class ObjectPoolYio<ObjectType extends ReusableYio> {
     private ArrayList<ObjectType> freeObjects = new ArrayList();

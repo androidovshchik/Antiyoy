@@ -2,10 +2,10 @@ package io.androidovshchik.antiyoy.menu.render;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import java.util.Iterator;
-import yio.tro.antiyoy.menu.FireworksElement.FeParticle;
-import yio.tro.antiyoy.menu.FireworksElement.FireworksElement;
-import yio.tro.antiyoy.menu.InterfaceElement;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.FireworksElement.FeParticle;
+import io.androidovshchik.antiyoy.menu.FireworksElement.FireworksElement;
+import io.androidovshchik.antiyoy.menu.InterfaceElement;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class RenderFireworksElement extends MenuRender {
     private FireworksElement fireworksElement;

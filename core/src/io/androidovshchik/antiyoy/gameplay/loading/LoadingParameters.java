@@ -2,11 +2,11 @@ package io.androidovshchik.antiyoy.gameplay.loading;
 
 import com.badlogic.gdx.Preferences;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomacyInfoCondensed;
-import yio.tro.antiyoy.gameplay.replays.Replay;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomacyInfoCondensed;
+import io.androidovshchik.antiyoy.gameplay.replays.Replay;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
 
 public class LoadingParameters {
     private static LoadingParameters instance = null;

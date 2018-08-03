@@ -2,7 +2,7 @@ package io.androidovshchik.antiyoy.gameplay.diplomacy;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class DiplomacyInfoCondensed implements ReusableYio {
     private static DiplomacyInfoCondensed instance;

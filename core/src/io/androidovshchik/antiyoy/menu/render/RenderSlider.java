@@ -3,9 +3,9 @@ package io.androidovshchik.antiyoy.menu.render;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import yio.tro.antiyoy.menu.InterfaceElement;
-import yio.tro.antiyoy.menu.slider.SliderYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.InterfaceElement;
+import io.androidovshchik.antiyoy.menu.slider.SliderYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class RenderSlider extends MenuRender {
     TextureRegion accentPixel;

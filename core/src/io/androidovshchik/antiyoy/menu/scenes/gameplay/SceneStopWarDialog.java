@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.diplomatic_dialogs.StopWarDialog;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.diplomatic_dialogs.StopWarDialog;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SceneStopWarDialog extends AbstractGameplayScene {
     public StopWarDialog dialog = null;

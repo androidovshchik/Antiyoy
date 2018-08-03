@@ -5,12 +5,12 @@ import com.badlogic.gdx.Preferences;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.GameSaver;
-import yio.tro.antiyoy.gameplay.editor.LevelEditor;
-import yio.tro.antiyoy.stuff.LanguagesManager;
-import yio.tro.antiyoy.stuff.Yio;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.GameSaver;
+import io.androidovshchik.antiyoy.gameplay.editor.LevelEditor;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.stuff.Yio;
 
 public class SaveSystem {
     public static final String AUTOSAVE_KEY = "autosave";

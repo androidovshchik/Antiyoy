@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.menu.replay_selector;
 
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class RsItem {
     PointYio delta = new PointYio();

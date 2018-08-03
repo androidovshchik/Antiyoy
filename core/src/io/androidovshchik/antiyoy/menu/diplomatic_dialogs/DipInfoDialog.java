@@ -1,11 +1,11 @@
 package io.androidovshchik.antiyoy.menu.diplomatic_dialogs;
 
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomacyManager;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomaticContract;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomaticEntity;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.stuff.Fonts;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomacyManager;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomaticContract;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomaticEntity;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.stuff.Fonts;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class DipInfoDialog extends AbstractDiplomaticDialog {
     DiplomaticEntity mainEntity = null;

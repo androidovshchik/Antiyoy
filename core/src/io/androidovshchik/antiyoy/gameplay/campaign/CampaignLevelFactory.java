@@ -1,13 +1,13 @@
 package io.androidovshchik.antiyoy.gameplay.campaign;
 
 import java.util.ArrayList;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.loading.LoadingManager;
-import yio.tro.antiyoy.gameplay.loading.LoadingParameters;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.menu.slider.SliderYio;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingManager;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingParameters;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.menu.slider.SliderYio;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class CampaignLevelFactory {
     public static final int EXPERT_LEVELS_START = 60;

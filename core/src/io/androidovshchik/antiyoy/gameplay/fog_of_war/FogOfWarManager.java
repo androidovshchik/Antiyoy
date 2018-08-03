@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map.Entry;
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.gameplay.Province;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomaticEntity;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
-import yio.tro.antiyoy.stuff.object_pool.ObjectPoolYio;
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.Province;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomaticEntity;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ObjectPoolYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class FogOfWarManager {
     public static final int OFFSET = 4;

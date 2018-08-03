@@ -2,17 +2,17 @@ package io.androidovshchik.antiyoy.menu.scenes;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.CustomLanguageLoader;
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
-import yio.tro.antiyoy.menu.scrollable_list.ListBehaviorYio;
-import yio.tro.antiyoy.menu.scrollable_list.ListItemYio;
-import yio.tro.antiyoy.menu.scrollable_list.ScrollableListYio;
-import yio.tro.antiyoy.stuff.LanguageChooseItem;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.CustomLanguageLoader;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ListBehaviorYio;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ListItemYio;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ScrollableListYio;
+import io.androidovshchik.antiyoy.stuff.LanguageChooseItem;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class SceneLanguages extends AbstractScene {
     private ButtonYio backButton;

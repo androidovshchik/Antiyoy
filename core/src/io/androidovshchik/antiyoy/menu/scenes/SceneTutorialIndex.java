@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.menu.scenes;
 
 import com.badlogic.gdx.net.HttpStatus;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
 
 public class SceneTutorialIndex extends AbstractScene {
     public SceneTutorialIndex(MenuControllerYio menuControllerYio) {

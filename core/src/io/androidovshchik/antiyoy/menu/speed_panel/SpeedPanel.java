@@ -2,16 +2,16 @@ package io.androidovshchik.antiyoy.menu.speed_panel;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.gameplay.SpeedManager;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.InterfaceElement;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.render.MenuRender;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.gameplay.SpeedManager;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.InterfaceElement;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.render.MenuRender;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class SpeedPanel extends InterfaceElement {
     FactorYio appearFactor = new FactorYio();

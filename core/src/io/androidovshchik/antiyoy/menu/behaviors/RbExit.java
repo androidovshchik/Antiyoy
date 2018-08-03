@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.menu.behaviors;
 
 import com.badlogic.gdx.Gdx;
-import yio.tro.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
 
 public class RbExit extends Reaction {
     public void perform(ButtonYio buttonYio) {

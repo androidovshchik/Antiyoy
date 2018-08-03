@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.gameplay;
 
-import yio.tro.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.YioGdxGame;
 
 public class GameSettings {
     public static final int DIFFICULTY_EASY = 0;

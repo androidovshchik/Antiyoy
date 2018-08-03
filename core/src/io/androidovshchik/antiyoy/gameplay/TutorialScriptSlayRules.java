@@ -1,12 +1,12 @@
 package io.androidovshchik.antiyoy.gameplay;
 
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.gameplay.loading.LoadingManager;
-import yio.tro.antiyoy.gameplay.loading.LoadingParameters;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingManager;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingParameters;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class TutorialScriptSlayRules extends TutorialScript {
     public static final int STEP_ABOUT_UNIT_DEATH = 9;

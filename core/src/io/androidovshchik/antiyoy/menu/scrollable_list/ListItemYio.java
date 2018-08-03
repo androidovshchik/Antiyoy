@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.menu.scrollable_list;
 
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class ListItemYio {
     public int bckViewType = -1;

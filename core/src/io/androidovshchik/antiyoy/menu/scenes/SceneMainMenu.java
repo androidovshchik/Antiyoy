@@ -1,11 +1,11 @@
 package io.androidovshchik.antiyoy.menu.scenes;
 
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.campaign.CampaignProgressManager;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.campaign.CampaignProgressManager;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SceneMainMenu extends AbstractScene {
     public ButtonYio playButton;

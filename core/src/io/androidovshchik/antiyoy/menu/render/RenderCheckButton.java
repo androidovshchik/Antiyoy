@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.menu.render;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import yio.tro.antiyoy.menu.CheckButtonYio;
-import yio.tro.antiyoy.menu.InterfaceElement;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.CheckButtonYio;
+import io.androidovshchik.antiyoy.menu.InterfaceElement;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class RenderCheckButton extends MenuRender {
     TextureRegion activeTexture;

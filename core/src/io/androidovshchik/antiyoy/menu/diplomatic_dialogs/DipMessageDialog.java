@@ -2,9 +2,9 @@ package io.androidovshchik.antiyoy.menu.diplomatic_dialogs;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.stuff.Fonts;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.stuff.Fonts;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class DipMessageDialog extends AbstractDiplomaticDialog {
     ArrayList<String> lines = new ArrayList();

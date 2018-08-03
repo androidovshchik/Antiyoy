@@ -2,12 +2,12 @@ package io.androidovshchik.antiyoy;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.game_view.GameView;
-import yio.tro.antiyoy.menu.CheckButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.save_slot_selector.SaveSystem;
-import yio.tro.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.game_view.GameView;
+import io.androidovshchik.antiyoy.menu.CheckButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.save_slot_selector.SaveSystem;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
 
 public class Settings {
     public static boolean askToEndTurn = false;

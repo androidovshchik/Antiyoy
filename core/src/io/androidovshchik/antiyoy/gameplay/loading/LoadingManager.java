@@ -2,14 +2,14 @@ package io.androidovshchik.antiyoy.gameplay.loading;
 
 import java.util.Iterator;
 import java.util.Random;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.GameSaver;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.gameplay.campaign.CampaignProgressManager;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.GameSaver;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.campaign.CampaignProgressManager;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
 
 public class LoadingManager {
     public static final int MAX_LOADING_DELAY = 4000;

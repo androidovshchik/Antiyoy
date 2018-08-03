@@ -2,9 +2,9 @@ package io.androidovshchik.antiyoy;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
-import yio.tro.antiyoy.gameplay.name_generator.CityNameGenerator;
-import yio.tro.antiyoy.stuff.Fonts;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.gameplay.name_generator.CityNameGenerator;
+import io.androidovshchik.antiyoy.stuff.Fonts;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class CustomLanguageLoader {
     private static boolean autoDetect = false;

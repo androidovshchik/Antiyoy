@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.menu;
 
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomacyManager;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomacyManager;
 
 public class SpecialActionController {
     MenuControllerYio menuControllerYio;

@@ -5,13 +5,13 @@ import com.badlogic.gdx.Preferences;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.GameSaver;
-import yio.tro.antiyoy.gameplay.replays.actions.RepAction;
-import yio.tro.antiyoy.gameplay.replays.actions.RepActionFactory;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.GameSaver;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RepAction;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RepActionFactory;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
 
 public class Replay {
     public ArrayList<RepAction> actions = new ArrayList();

@@ -2,9 +2,9 @@ package io.androidovshchik.antiyoy.gameplay;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.stuff.PointYio;
 
 public class Unit {
     public Hex currentHex;

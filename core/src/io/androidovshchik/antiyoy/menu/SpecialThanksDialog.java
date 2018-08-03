@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu;
 
-import yio.tro.antiyoy.menu.render.MenuRender;
-import yio.tro.antiyoy.menu.scrollable_list.ScrollableListYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.render.MenuRender;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ScrollableListYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SpecialThanksDialog extends ScrollableListYio {
     public SpecialThanksDialog(MenuControllerYio menuControllerYio) {

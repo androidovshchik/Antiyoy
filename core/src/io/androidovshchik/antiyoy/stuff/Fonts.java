@@ -6,8 +6,8 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator.FreeTypeFontParameter;
-import yio.tro.antiyoy.CustomLanguageLoader;
-import yio.tro.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.CustomLanguageLoader;
+import io.androidovshchik.antiyoy.YioGdxGame;
 
 public class Fonts {
     public static int FONT_SIZE = 0;

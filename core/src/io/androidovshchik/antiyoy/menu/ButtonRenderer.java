@@ -14,12 +14,12 @@ import com.badlogic.gdx.utils.StringBuilder;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.game_view.GameView;
-import yio.tro.antiyoy.stuff.Fonts;
-import yio.tro.antiyoy.stuff.FrameBufferYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.game_view.GameView;
+import io.androidovshchik.antiyoy.stuff.Fonts;
+import io.androidovshchik.antiyoy.stuff.FrameBufferYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class ButtonRenderer {
     private final SpriteBatch batch = new SpriteBatch();

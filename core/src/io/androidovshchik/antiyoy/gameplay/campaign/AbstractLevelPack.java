@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.gameplay.campaign;
 
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.loading.LoadingManager;
-import yio.tro.antiyoy.gameplay.loading.LoadingParameters;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingManager;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingParameters;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
 
 public abstract class AbstractLevelPack {
     protected final CampaignLevelFactory campaignLevelFactory;

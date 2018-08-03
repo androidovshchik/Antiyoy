@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class CityNameGenerator {
     private static CityNameGenerator instance = null;

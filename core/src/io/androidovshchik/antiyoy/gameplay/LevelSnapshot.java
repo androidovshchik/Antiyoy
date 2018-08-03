@@ -4,11 +4,11 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomacyInfoCondensed;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomacyManager;
-import yio.tro.antiyoy.gameplay.replays.actions.RepAction;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomacyInfoCondensed;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomacyManager;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RepAction;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
 
 public class LevelSnapshot {
     private ArrayList<Hex> activeHexesCopy = new ArrayList();

@@ -1,12 +1,12 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.scenes.AbstractScene;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
-import yio.tro.antiyoy.menu.speed_panel.SpeedPanel;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.scenes.AbstractScene;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.menu.speed_panel.SpeedPanel;
 
 public class SceneAiOnlyOverlay extends AbstractScene {
     public ButtonYio inGameMenuButton;

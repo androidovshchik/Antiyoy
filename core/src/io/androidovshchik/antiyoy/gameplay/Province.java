@@ -3,10 +3,10 @@ package io.androidovshchik.antiyoy.gameplay;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.name_generator.CityNameGenerator;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.stuff.Fonts;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.name_generator.CityNameGenerator;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.stuff.Fonts;
 
 public class Province {
     public static final int DEFAULT_MONEY = 10;

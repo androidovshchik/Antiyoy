@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.TurnStartDialog;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.TurnStartDialog;
 
 public class SceneTurnStartDialog extends AbstractGameplayScene {
     public TurnStartDialog dialog = null;

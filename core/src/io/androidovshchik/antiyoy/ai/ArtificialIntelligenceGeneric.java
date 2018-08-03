@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.ai;
 
 import java.util.Iterator;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.gameplay.Province;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.Province;
 
 public abstract class ArtificialIntelligenceGeneric extends ArtificialIntelligence {
     public static final int MAX_EXTRA_FARM_COST = 80;

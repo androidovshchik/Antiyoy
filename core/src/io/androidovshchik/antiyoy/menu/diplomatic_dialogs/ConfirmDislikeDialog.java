@@ -1,12 +1,12 @@
 package io.androidovshchik.antiyoy.menu.diplomatic_dialogs;
 
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomacyManager;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomaticEntity;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.stuff.Fonts;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomacyManager;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomaticEntity;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.stuff.Fonts;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class ConfirmDislikeDialog extends AbstractDiplomaticDialog {
     DiplomaticEntity selectedEntity;

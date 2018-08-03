@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.gameplay.user_levels.pack_three;
 
-import yio.tro.antiyoy.gameplay.user_levels.AbstractUserLevel;
+import io.androidovshchik.antiyoy.gameplay.user_levels.AbstractUserLevel;
 
 public class UlevConquestOfBritain extends AbstractUserLevel {
     public String getFullLevelString() {

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.ListIterator;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.YioGdxGame;
 
 public class Yio {
     public static double angle(double x1, double y1, double x2, double y2) {

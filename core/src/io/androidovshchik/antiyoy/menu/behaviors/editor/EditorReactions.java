@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.menu.behaviors.editor;
 
-import yio.tro.antiyoy.menu.behaviors.menu_creation.RbEditorImportConfirmMenu;
+import io.androidovshchik.antiyoy.menu.behaviors.menu_creation.RbEditorImportConfirmMenu;
 
 public class EditorReactions {
     public static final RbClearLevel rbClearEditorLevel = new RbClearLevel();

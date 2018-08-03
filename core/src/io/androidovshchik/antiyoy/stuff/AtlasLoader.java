@@ -5,7 +5,7 @@ import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.gameplay.game_view.GameView;
+import io.androidovshchik.antiyoy.gameplay.game_view.GameView;
 
 public class AtlasLoader {
     private boolean antialias;

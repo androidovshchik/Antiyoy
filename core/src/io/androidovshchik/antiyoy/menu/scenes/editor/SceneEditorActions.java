@@ -1,11 +1,11 @@
 package io.androidovshchik.antiyoy.menu.scenes.editor;
 
-import yio.tro.antiyoy.gameplay.editor.LevelEditor;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.behaviors.editor.EditorReactions;
-import yio.tro.antiyoy.menu.scenes.AbstractScene;
+import io.androidovshchik.antiyoy.gameplay.editor.LevelEditor;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.behaviors.editor.EditorReactions;
+import io.androidovshchik.antiyoy.menu.scenes.AbstractScene;
 
 public class SceneEditorActions extends AbstractScene {
     double bHeight = 0.075d;

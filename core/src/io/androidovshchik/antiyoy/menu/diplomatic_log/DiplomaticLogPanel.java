@@ -1,20 +1,20 @@
 package io.androidovshchik.antiyoy.menu.diplomatic_log;
 
 import java.util.Iterator;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomacyManager;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomaticEntity;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomaticLog;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomaticMessage;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.render.MenuRender;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.menu.scrollable_list.ListBehaviorYio;
-import yio.tro.antiyoy.menu.scrollable_list.ListItemYio;
-import yio.tro.antiyoy.menu.scrollable_list.ScrollableListYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.LanguagesManager;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomacyManager;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomaticEntity;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomaticLog;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomaticMessage;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.render.MenuRender;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ListBehaviorYio;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ListItemYio;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ScrollableListYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class DiplomaticLogPanel extends ScrollableListYio {
     boolean readyToDie = false;

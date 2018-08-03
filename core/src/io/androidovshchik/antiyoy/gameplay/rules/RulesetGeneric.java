@@ -1,10 +1,10 @@
 package io.androidovshchik.antiyoy.gameplay.rules;
 
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.gameplay.Province;
-import yio.tro.antiyoy.gameplay.Unit;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.Province;
+import io.androidovshchik.antiyoy.gameplay.Unit;
 
 public class RulesetGeneric extends Ruleset {
     public RulesetGeneric(GameController gameController) {

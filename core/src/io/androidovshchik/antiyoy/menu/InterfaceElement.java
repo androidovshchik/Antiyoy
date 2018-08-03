@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu;
 
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.menu.render.MenuRender;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.menu.render.MenuRender;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public abstract class InterfaceElement {
     public static final double DES_SPEED = 2.0d;

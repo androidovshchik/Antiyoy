@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.scenes;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.NotificationElement;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.NotificationElement;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class SceneNotification extends AbstractScene {
     public NotificationElement notificationElement = null;

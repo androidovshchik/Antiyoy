@@ -1,24 +1,24 @@
 package io.androidovshchik.antiyoy.gameplay.replays;
 
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.gameplay.Province;
-import yio.tro.antiyoy.gameplay.campaign.CampaignProgressManager;
-import yio.tro.antiyoy.gameplay.loading.LoadingManager;
-import yio.tro.antiyoy.gameplay.loading.LoadingParameters;
-import yio.tro.antiyoy.gameplay.replays.actions.RaCitySpawned;
-import yio.tro.antiyoy.gameplay.replays.actions.RaFarmBuilt;
-import yio.tro.antiyoy.gameplay.replays.actions.RaPalmSpawned;
-import yio.tro.antiyoy.gameplay.replays.actions.RaPineSpawned;
-import yio.tro.antiyoy.gameplay.replays.actions.RaTowerBuilt;
-import yio.tro.antiyoy.gameplay.replays.actions.RaTurnEnded;
-import yio.tro.antiyoy.gameplay.replays.actions.RaUnitBuilt;
-import yio.tro.antiyoy.gameplay.replays.actions.RaUnitDiedFromStarvation;
-import yio.tro.antiyoy.gameplay.replays.actions.RaUnitMoved;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.Province;
+import io.androidovshchik.antiyoy.gameplay.campaign.CampaignProgressManager;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingManager;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingParameters;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RaCitySpawned;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RaFarmBuilt;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RaPalmSpawned;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RaPineSpawned;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RaTowerBuilt;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RaTurnEnded;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RaUnitBuilt;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RaUnitDiedFromStarvation;
+import io.androidovshchik.antiyoy.gameplay.replays.actions.RaUnitMoved;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
 
 public class ReplayManager {
     GameController gameController;

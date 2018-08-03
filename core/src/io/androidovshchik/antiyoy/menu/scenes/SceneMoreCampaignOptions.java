@@ -2,14 +2,14 @@ package io.androidovshchik.antiyoy.menu.scenes;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.CheckButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.slider.SliderBehavior;
-import yio.tro.antiyoy.menu.slider.SliderYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.CheckButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.slider.SliderBehavior;
+import io.androidovshchik.antiyoy.menu.slider.SliderYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class SceneMoreCampaignOptions extends AbstractScene {
     private CheckButtonYio chkSlayRules;

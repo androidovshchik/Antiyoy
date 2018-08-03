@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.stuff;
 
-import yio.tro.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.YioGdxGame;
 
 public abstract class RepeatYio<ProviderType> {
     int countDown;

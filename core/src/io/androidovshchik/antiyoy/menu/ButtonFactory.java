@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.menu;
 
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class ButtonFactory {
     private final ButtonRenderer buttonRenderer = new ButtonRenderer();

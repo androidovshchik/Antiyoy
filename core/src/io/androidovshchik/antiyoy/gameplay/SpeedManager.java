@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.gameplay;
 
-import yio.tro.antiyoy.gameplay.replays.Replay;
+import io.androidovshchik.antiyoy.gameplay.replays.Replay;
 
 public class SpeedManager {
     public static final int SPEED_FAST_FORWARD = 2;

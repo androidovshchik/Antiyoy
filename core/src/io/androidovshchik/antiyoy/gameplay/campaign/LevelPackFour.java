@@ -2,7 +2,7 @@ package io.androidovshchik.antiyoy.gameplay.campaign;
 
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.net.HttpStatus;
-import yio.tro.antiyoy.gameplay.loading.LoadingParameters;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingParameters;
 
 public class LevelPackFour extends AbstractLevelPack {
     public LevelPackFour(CampaignLevelFactory campaignLevelFactory) {

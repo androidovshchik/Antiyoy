@@ -4,16 +4,16 @@ import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.menu.InterfaceElement;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.render.MenuRender;
-import yio.tro.antiyoy.stuff.Fonts;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.LanguagesManager;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
-import yio.tro.antiyoy.stuff.object_pool.ObjectPoolYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.menu.InterfaceElement;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.render.MenuRender;
+import io.androidovshchik.antiyoy.stuff.Fonts;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ObjectPoolYio;
 
 public abstract class AbstractDiplomaticDialog extends InterfaceElement {
     public FactorYio appearFactor = new FactorYio();

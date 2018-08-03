@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.gameplay;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
 
 public abstract class TutorialScript {
     GameController gameController;

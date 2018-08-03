@@ -3,10 +3,10 @@ package io.androidovshchik.antiyoy.gameplay;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.Yio;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.Yio;
 
 public class MapGenerator {
     static int SMALL_PROVINCE_SIZE = 4;

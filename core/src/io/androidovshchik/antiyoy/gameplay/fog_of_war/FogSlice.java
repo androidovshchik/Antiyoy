@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.gameplay.fog_of_war;
 
 import java.util.ArrayList;
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class FogSlice implements ReusableYio {
     public FogPoint bottomPoint;

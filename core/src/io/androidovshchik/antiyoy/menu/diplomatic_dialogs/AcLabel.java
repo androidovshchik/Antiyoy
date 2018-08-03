@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.diplomatic_dialogs;
 
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class AcLabel implements ReusableYio {
     PointYio delta = new PointYio();

@@ -3,7 +3,7 @@ package io.androidovshchik.antiyoy.gameplay;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.YioGdxGame;
 
 public class AnalyzeBalanceResults {
     private final int f92N = 5;

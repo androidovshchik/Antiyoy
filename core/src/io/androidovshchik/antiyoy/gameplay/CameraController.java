@@ -2,12 +2,12 @@ package io.androidovshchik.antiyoy.gameplay;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
-import yio.tro.antiyoy.stuff.Yio;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.stuff.Yio;
 
 public class CameraController {
     public static final double ZOOM_CATCH_DISTANCE = 0.002d;

@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.gameplay.diplomacy;
 
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class DiplomaticContract implements ReusableYio {
     public static final int DURATION_FRIEND = 12;

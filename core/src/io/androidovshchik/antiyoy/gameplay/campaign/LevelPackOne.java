@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.gameplay.campaign;
 
 import com.badlogic.gdx.Input.Keys;
-import yio.tro.antiyoy.gameplay.loading.LoadingManager;
-import yio.tro.antiyoy.gameplay.loading.LoadingParameters;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingManager;
+import io.androidovshchik.antiyoy.gameplay.loading.LoadingParameters;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
 
 public class LevelPackOne {
     private final CampaignLevelFactory campaignLevelFactory;

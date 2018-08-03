@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.menu.FireworksElement;
 
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class FeSequence implements ReusableYio {
     boolean activated;

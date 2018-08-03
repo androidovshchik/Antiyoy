@@ -3,11 +3,11 @@ package io.androidovshchik.antiyoy.menu.render;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import java.util.Iterator;
-import yio.tro.antiyoy.menu.InterfaceElement;
-import yio.tro.antiyoy.menu.diplomatic_dialogs.AbstractDiplomaticDialog;
-import yio.tro.antiyoy.menu.diplomatic_dialogs.AcButton;
-import yio.tro.antiyoy.menu.diplomatic_dialogs.AcLabel;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.InterfaceElement;
+import io.androidovshchik.antiyoy.menu.diplomatic_dialogs.AbstractDiplomaticDialog;
+import io.androidovshchik.antiyoy.menu.diplomatic_dialogs.AcButton;
+import io.androidovshchik.antiyoy.menu.diplomatic_dialogs.AcLabel;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class RenderDiplomaticDialog extends MenuRender {
     private TextureRegion backgroundTexture;

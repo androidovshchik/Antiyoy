@@ -4,13 +4,13 @@ import com.badlogic.gdx.Gdx;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.SoundControllerYio;
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.SoundControllerYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SelectionController {
     public static final int TIP_INDEX_FARM = 5;

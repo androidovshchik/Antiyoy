@@ -10,12 +10,12 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.game_view.GameView;
-import yio.tro.antiyoy.menu.render.MenuRender;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
-import yio.tro.antiyoy.stuff.Yio;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.game_view.GameView;
+import io.androidovshchik.antiyoy.menu.render.MenuRender;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.stuff.Yio;
 
 public class MenuViewYio {
     public SpriteBatch batch;

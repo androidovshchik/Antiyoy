@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.diplomatic_dialogs.FriendshipDialog;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.diplomatic_dialogs.FriendshipDialog;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SceneFriendshipDialog extends AbstractGameplayScene {
     public FriendshipDialog dialog = null;

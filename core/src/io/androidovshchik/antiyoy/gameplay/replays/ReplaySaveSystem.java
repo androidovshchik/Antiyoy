@@ -5,9 +5,9 @@ import com.badlogic.gdx.Preferences;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.StringTokenizer;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.campaign.CampaignProgressManager;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.campaign.CampaignProgressManager;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
 
 public class ReplaySaveSystem {
     public static final String REPLAYS_PREFS = "antiyoy.replays";

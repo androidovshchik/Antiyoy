@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.gameplay.replays.actions;
 
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.GameController;
 
 public class RaTurnEnded extends RepAction {
     public void initType() {

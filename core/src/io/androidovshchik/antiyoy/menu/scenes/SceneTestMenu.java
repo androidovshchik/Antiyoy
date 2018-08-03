@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.menu.scenes;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
 
 public class SceneTestMenu extends AbstractScene {
     public SceneTestMenu(MenuControllerYio menuControllerYio) {

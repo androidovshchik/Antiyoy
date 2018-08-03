@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.menu.behaviors.menu_creation;
 
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
 
 public class RbMoreSettings extends Reaction {
     public void perform(ButtonYio buttonYio) {

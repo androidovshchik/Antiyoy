@@ -2,10 +2,10 @@ package io.androidovshchik.antiyoy.gameplay.editor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.gameplay.MoveZoneDetection;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.MoveZoneDetection;
 
 public class EditorAutomationManager {
     ArrayList<Hex> ignoredHices = new ArrayList();

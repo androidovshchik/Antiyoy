@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.gameplay.game_view;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import yio.tro.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.GameController;
 
 public abstract class GameRender {
     protected final SpriteBatch batchMovable = this.gameView.batchMovable;

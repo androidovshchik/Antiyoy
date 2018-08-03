@@ -2,15 +2,15 @@ package io.androidovshchik.antiyoy.menu.scenes.editor;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.editor.EditorReactions;
-import yio.tro.antiyoy.menu.scenes.SceneSkirmishMenu;
-import yio.tro.antiyoy.menu.slider.SliderBehavior;
-import yio.tro.antiyoy.menu.slider.SliderYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.editor.EditorReactions;
+import io.androidovshchik.antiyoy.menu.scenes.SceneSkirmishMenu;
+import io.androidovshchik.antiyoy.menu.slider.SliderBehavior;
+import io.androidovshchik.antiyoy.menu.slider.SliderYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SceneEditorParams extends AbstractEditorPanel {
     private double bSize;

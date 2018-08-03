@@ -2,10 +2,10 @@ package io.androidovshchik.antiyoy.menu.scenes;
 
 import com.badlogic.gdx.Gdx;
 import java.util.ArrayList;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
 
 public class SceneInfoMenu extends AbstractScene {
     public SceneInfoMenu(MenuControllerYio menuControllerYio) {

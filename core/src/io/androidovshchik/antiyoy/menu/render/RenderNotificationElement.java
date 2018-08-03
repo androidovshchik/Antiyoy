@@ -3,9 +3,9 @@ package io.androidovshchik.antiyoy.menu.render;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import yio.tro.antiyoy.menu.InterfaceElement;
-import yio.tro.antiyoy.menu.NotificationElement;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.InterfaceElement;
+import io.androidovshchik.antiyoy.menu.NotificationElement;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class RenderNotificationElement extends MenuRender {
     private TextureRegion backgroundTexture;

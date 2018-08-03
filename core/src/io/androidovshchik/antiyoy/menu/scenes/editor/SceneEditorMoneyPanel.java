@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.menu.scenes.editor;
 
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
 
 public class SceneEditorMoneyPanel extends AbstractEditorPanel {
     private ButtonYio basePanel;

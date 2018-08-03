@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.menu.scenes.editor;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.scenes.AbstractScene;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.scenes.AbstractScene;
 
 public abstract class AbstractEditorPanel extends AbstractScene {
     public abstract void create();

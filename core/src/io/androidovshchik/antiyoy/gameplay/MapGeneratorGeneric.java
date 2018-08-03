@@ -3,9 +3,9 @@ package io.androidovshchik.antiyoy.gameplay;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
-import yio.tro.antiyoy.stuff.Yio;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.stuff.Yio;
 
 public class MapGeneratorGeneric extends MapGenerator {
     public MapGeneratorGeneric(GameController gameController) {

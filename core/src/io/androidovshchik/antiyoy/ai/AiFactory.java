@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.ai;
 
 import java.util.ArrayList;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
 
 public class AiFactory {
     ArrayList<ArtificialIntelligence> aiList;

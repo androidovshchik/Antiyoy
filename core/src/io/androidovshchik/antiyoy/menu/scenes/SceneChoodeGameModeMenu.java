@@ -1,12 +1,12 @@
 package io.androidovshchik.antiyoy.menu.scenes;
 
-import yio.tro.antiyoy.gameplay.editor.LevelEditor;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.behaviors.editor.EditorReactions;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.gameplay.editor.LevelEditor;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.behaviors.editor.EditorReactions;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SceneChoodeGameModeMenu extends AbstractScene {
     private Reaction rbUserLevels = new C01181();

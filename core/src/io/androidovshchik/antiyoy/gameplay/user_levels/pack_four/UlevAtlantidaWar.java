@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.gameplay.user_levels.pack_four;
 
-import yio.tro.antiyoy.gameplay.user_levels.AbstractUserLevel;
+import io.androidovshchik.antiyoy.gameplay.user_levels.AbstractUserLevel;
 
 public class UlevAtlantidaWar extends AbstractUserLevel {
     public String getFullLevelString() {

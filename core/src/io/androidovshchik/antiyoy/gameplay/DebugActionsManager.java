@@ -2,14 +2,14 @@ package io.androidovshchik.antiyoy.gameplay;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.gameplay.campaign.CampaignProgressManager;
-import yio.tro.antiyoy.gameplay.diplomacy.DiplomacyManager;
-import yio.tro.antiyoy.gameplay.name_generator.CityNameGenerator;
-import yio.tro.antiyoy.gameplay.replays.ReplaySaveSystem;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.gameplay.campaign.CampaignProgressManager;
+import io.androidovshchik.antiyoy.gameplay.diplomacy.DiplomacyManager;
+import io.androidovshchik.antiyoy.gameplay.name_generator.CityNameGenerator;
+import io.androidovshchik.antiyoy.gameplay.replays.ReplaySaveSystem;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
 
 public class DebugActionsManager {
     private final GameController gameController;

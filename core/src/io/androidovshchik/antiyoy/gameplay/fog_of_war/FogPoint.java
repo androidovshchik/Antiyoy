@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.gameplay.fog_of_war;
 
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class FogPoint implements ReusableYio {
     FogOfWarManager fogOfWarManager;

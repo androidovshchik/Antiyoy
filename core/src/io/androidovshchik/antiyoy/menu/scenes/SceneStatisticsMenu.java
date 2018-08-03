@@ -1,13 +1,13 @@
 package io.androidovshchik.antiyoy.menu.scenes;
 
 import com.badlogic.gdx.Input.Keys;
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.gameplay.MatchStatistics;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.gameplay.MatchStatistics;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SceneStatisticsMenu extends AbstractScene {
     private Reaction backReaction = new C01361();

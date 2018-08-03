@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.diplomatic_dialogs.ConfirmDislikeDialog;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.diplomatic_dialogs.ConfirmDislikeDialog;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class SceneConfirmDislike extends AbstractGameplayScene {
     public ConfirmDislikeDialog dialog = null;

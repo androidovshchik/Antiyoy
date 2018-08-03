@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.behaviors.gameplay;
 
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
 
 public class RbBuildSolidObject extends Reaction {
     int[] chain = new int[]{5, 0, 6};

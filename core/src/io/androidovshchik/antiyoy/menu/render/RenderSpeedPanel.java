@@ -2,12 +2,12 @@ package io.androidovshchik.antiyoy.menu.render;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import java.util.Iterator;
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.menu.InterfaceElement;
-import yio.tro.antiyoy.menu.speed_panel.SpItem;
-import yio.tro.antiyoy.menu.speed_panel.SpeedPanel;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.menu.InterfaceElement;
+import io.androidovshchik.antiyoy.menu.speed_panel.SpItem;
+import io.androidovshchik.antiyoy.menu.speed_panel.SpeedPanel;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class RenderSpeedPanel extends MenuRender {
     private TextureRegion backgroundTexture;

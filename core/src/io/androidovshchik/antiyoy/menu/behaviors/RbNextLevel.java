@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.behaviors;
 
-import yio.tro.antiyoy.gameplay.campaign.CampaignProgressManager;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.gameplay.campaign.CampaignProgressManager;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
 
 public class RbNextLevel extends Reaction {
     public void perform(ButtonYio buttonYio) {

@@ -1,10 +1,10 @@
 package io.androidovshchik.antiyoy.menu.scenes;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.replay_selector.ReplaySelector;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
-import yio.tro.antiyoy.stuff.LongTapDetector;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.replay_selector.ReplaySelector;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.stuff.LongTapDetector;
 
 public class SceneReplays extends AbstractScene {
     ReplaySelector replaySelector = null;

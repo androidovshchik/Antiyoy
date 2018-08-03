@@ -1,12 +1,12 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
-import yio.tro.antiyoy.Settings;
-import yio.tro.antiyoy.SoundControllerYio;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.fast_construction.FastConstructionPanel;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.Settings;
+import io.androidovshchik.antiyoy.SoundControllerYio;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.fast_construction.FastConstructionPanel;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
 
 public class SceneFastConstructionPanel extends AbstractGameplayScene {
     public FastConstructionPanel fastConstructionPanel = null;

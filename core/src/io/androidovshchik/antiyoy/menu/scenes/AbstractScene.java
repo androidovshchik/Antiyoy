@@ -1,11 +1,11 @@
 package io.androidovshchik.antiyoy.menu.scenes;
 
-import yio.tro.antiyoy.menu.ButtonFactory;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.InterfaceElement;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.stuff.LanguagesManager;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.menu.ButtonFactory;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.InterfaceElement;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public abstract class AbstractScene {
     protected ButtonFactory buttonFactory;

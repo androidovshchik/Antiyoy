@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.gameplay.replays.actions;
 
 import java.util.ArrayList;
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.Hex;
 
 public class RaCitySpawned extends RepAction {
     Hex hex;

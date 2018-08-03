@@ -3,15 +3,15 @@ package io.androidovshchik.antiyoy.menu.scenes.editor;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input.Keys;
 import com.badlogic.gdx.Preferences;
-import yio.tro.antiyoy.gameplay.editor.LevelEditor;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.scenes.AbstractScene;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.menu.scrollable_list.ListBehaviorYio;
-import yio.tro.antiyoy.menu.scrollable_list.ListItemYio;
-import yio.tro.antiyoy.menu.scrollable_list.ScrollableListYio;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.gameplay.editor.LevelEditor;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.scenes.AbstractScene;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ListBehaviorYio;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ListItemYio;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ScrollableListYio;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class SceneEditorSlots extends AbstractScene {
     ScrollableListYio list = null;

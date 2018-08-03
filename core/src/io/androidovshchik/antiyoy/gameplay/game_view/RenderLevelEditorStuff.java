@@ -1,9 +1,9 @@
 package io.androidovshchik.antiyoy.gameplay.game_view;
 
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
-import yio.tro.antiyoy.gameplay.editor.LevelEditor;
-import yio.tro.antiyoy.gameplay.rules.GameRules;
-import yio.tro.antiyoy.stuff.Fonts;
+import io.androidovshchik.antiyoy.gameplay.editor.LevelEditor;
+import io.androidovshchik.antiyoy.gameplay.rules.GameRules;
+import io.androidovshchik.antiyoy.stuff.Fonts;
 
 public class RenderLevelEditorStuff extends GameRender {
     LevelEditor levelEditor = this.gameController.getLevelEditor();

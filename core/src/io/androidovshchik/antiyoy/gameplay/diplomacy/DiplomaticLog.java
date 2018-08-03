@@ -2,8 +2,8 @@ package io.androidovshchik.antiyoy.gameplay.diplomacy;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.stuff.object_pool.ObjectPoolYio;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.stuff.object_pool.ObjectPoolYio;
 
 public class DiplomaticLog {
     DiplomacyManager diplomacyManager;

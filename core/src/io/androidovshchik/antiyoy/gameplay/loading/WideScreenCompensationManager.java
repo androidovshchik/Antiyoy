@@ -1,10 +1,10 @@
 package io.androidovshchik.antiyoy.gameplay.loading;
 
 import java.util.Iterator;
-import yio.tro.antiyoy.gameplay.FieldController;
-import yio.tro.antiyoy.gameplay.GameController;
-import yio.tro.antiyoy.gameplay.Hex;
-import yio.tro.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.gameplay.FieldController;
+import io.androidovshchik.antiyoy.gameplay.GameController;
+import io.androidovshchik.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.stuff.PointYio;
 
 public class WideScreenCompensationManager {
     private float bottom;

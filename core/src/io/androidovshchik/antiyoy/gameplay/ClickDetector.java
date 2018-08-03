@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.gameplay;
 
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
 
 public class ClickDetector {
     public static final int CLICK_DELAY = 250;

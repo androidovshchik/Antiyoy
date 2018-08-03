@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.gameplay.fog_of_war;
 
-import yio.tro.antiyoy.gameplay.Hex;
+import io.androidovshchik.antiyoy.gameplay.Hex;
 
 public class SliceUpdater {
     int downDir = 3;

@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.diplomacy_element.DiplomacyElement;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.diplomacy_element.DiplomacyElement;
 
 public class SceneDiplomacy extends AbstractGameplayScene {
     public DiplomacyElement diplomacyElement = null;

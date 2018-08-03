@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.scenes.gameplay;
 
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.diplomatic_log.DiplomaticLogPanel;
-import yio.tro.antiyoy.stuff.LanguagesManager;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.diplomatic_log.DiplomaticLogPanel;
+import io.androidovshchik.antiyoy.stuff.LanguagesManager;
 
 public class SceneDiplomaticLog extends AbstractGameplayScene {
     DiplomaticLogPanel logPanel = null;

@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.stuff.scroll_engine;
 
-import yio.tro.antiyoy.stuff.Yio;
+import io.androidovshchik.antiyoy.stuff.Yio;
 
 public class SegmentYio {
     public double f107a = 0.0d;

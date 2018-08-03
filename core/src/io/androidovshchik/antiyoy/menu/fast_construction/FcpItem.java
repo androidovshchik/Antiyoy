@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.menu.fast_construction;
 
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
 
 public class FcpItem {
     public static final int ACTION_DIPLOMACY = 10;

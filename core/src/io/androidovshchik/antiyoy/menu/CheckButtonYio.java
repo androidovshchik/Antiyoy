@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.menu;
 
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class CheckButtonYio extends ButtonYio {
     boolean checked;

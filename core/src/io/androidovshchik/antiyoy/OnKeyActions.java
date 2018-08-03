@@ -2,9 +2,9 @@ package io.androidovshchik.antiyoy;
 
 import com.badlogic.gdx.Input.Keys;
 import java.util.Iterator;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.fast_construction.FastConstructionPanel;
-import yio.tro.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.fast_construction.FastConstructionPanel;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
 
 public class OnKeyActions {
     private final YioGdxGame yioGdxGame;

@@ -1,10 +1,10 @@
 package io.androidovshchik.antiyoy.menu.diplomacy_element;
 
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
-import yio.tro.antiyoy.stuff.PointYio;
-import yio.tro.antiyoy.stuff.RectangleYio;
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class DeItem implements ReusableYio, Comparable<DeItem> {
     public static final int STATUS_DEAD = 3;

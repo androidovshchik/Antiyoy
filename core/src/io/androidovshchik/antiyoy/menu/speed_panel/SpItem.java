@@ -1,7 +1,7 @@
 package io.androidovshchik.antiyoy.menu.speed_panel;
 
-import yio.tro.antiyoy.factor_yio.FactorYio;
-import yio.tro.antiyoy.stuff.PointYio;
+import io.androidovshchik.antiyoy.factor_yio.FactorYio;
+import io.androidovshchik.antiyoy.stuff.PointYio;
 
 public class SpItem {
     public static final int ACTION_FAST_FORWARD = 2;

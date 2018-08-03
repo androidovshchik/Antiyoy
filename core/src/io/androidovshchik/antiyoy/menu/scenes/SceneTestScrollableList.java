@@ -1,12 +1,12 @@
 package io.androidovshchik.antiyoy.menu.scenes;
 
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.scenes.editor.SceneEditorInstruments;
-import yio.tro.antiyoy.menu.scrollable_list.ListBehaviorYio;
-import yio.tro.antiyoy.menu.scrollable_list.ListItemYio;
-import yio.tro.antiyoy.menu.scrollable_list.ScrollableListYio;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.scenes.editor.SceneEditorInstruments;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ListBehaviorYio;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ListItemYio;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ScrollableListYio;
 
 public class SceneTestScrollableList extends AbstractScene {
     private ButtonYio backButton;

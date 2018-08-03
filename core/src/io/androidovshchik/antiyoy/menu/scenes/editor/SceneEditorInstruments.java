@@ -1,14 +1,14 @@
 package io.androidovshchik.antiyoy.menu.scenes.editor;
 
 import com.badlogic.gdx.Input.Keys;
-import yio.tro.antiyoy.YioGdxGame;
-import yio.tro.antiyoy.menu.ButtonYio;
-import yio.tro.antiyoy.menu.MenuControllerYio;
-import yio.tro.antiyoy.menu.behaviors.Reaction;
-import yio.tro.antiyoy.menu.behaviors.editor.EditorReactions;
-import yio.tro.antiyoy.menu.scenes.AbstractScene;
-import yio.tro.antiyoy.menu.scenes.Scenes;
-import yio.tro.antiyoy.stuff.RectangleYio;
+import io.androidovshchik.antiyoy.YioGdxGame;
+import io.androidovshchik.antiyoy.menu.ButtonYio;
+import io.androidovshchik.antiyoy.menu.MenuControllerYio;
+import io.androidovshchik.antiyoy.menu.behaviors.Reaction;
+import io.androidovshchik.antiyoy.menu.behaviors.editor.EditorReactions;
+import io.androidovshchik.antiyoy.menu.scenes.AbstractScene;
+import io.androidovshchik.antiyoy.menu.scenes.Scenes;
+import io.androidovshchik.antiyoy.stuff.RectangleYio;
 
 public class SceneEditorInstruments extends AbstractScene {
     public static final double ICON_SIZE = 0.07d;

@@ -1,6 +1,6 @@
 package io.androidovshchik.antiyoy.stuff;
 
-import yio.tro.antiyoy.stuff.object_pool.ReusableYio;
+import io.androidovshchik.antiyoy.stuff.object_pool.ReusableYio;
 
 public class RectangleYio implements ReusableYio {
     public double height;

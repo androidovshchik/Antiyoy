@@ -1,8 +1,8 @@
 package io.androidovshchik.antiyoy.menu.render;
 
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import yio.tro.antiyoy.menu.scrollable_list.ListItemYio;
-import yio.tro.antiyoy.stuff.GraphicsYio;
+import io.androidovshchik.antiyoy.menu.scrollable_list.ListItemYio;
+import io.androidovshchik.antiyoy.stuff.GraphicsYio;
 
 public class RenderSpecialThanksDialog extends RenderScrollableList {
     protected TextureRegion getItemBackgroundTexture(ListItemYio item) {
